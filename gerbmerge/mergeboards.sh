@@ -8,5 +8,6 @@ if ['$1' = ''];
   exit;
 fi
 gerbmerge --search-timeout $1 gerbmerge_atmwm.cfg
+rm merged.drills-unplated.xln 
 
 
