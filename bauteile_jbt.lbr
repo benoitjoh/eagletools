@@ -1476,17 +1476,17 @@ grid 1.8 mm, diameter 4 mm</description>
 <pad name="-" x="0.889" y="0" drill="0.9" diameter="1.1684" shape="octagon"/>
 <pad name="+" x="-0.889" y="0" drill="0.9" diameter="1.1684"/>
 <text x="2.159" y="0.762" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.5588" y1="2.0828" x2="-0.5588" y2="1.4224" width="0.127" layer="21"/>
-<wire x1="-0.5588" y1="1.4224" x2="-0.5588" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="-0.2794" y1="2.0828" x2="0.2794" y2="2.0828" width="0.127" layer="21"/>
-<wire x1="0.2794" y1="2.0828" x2="0.2794" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="0.2794" y1="0.8128" x2="-0.2794" y2="0.8128" width="0.127" layer="21"/>
-<wire x1="-0.2794" y1="0.8128" x2="-0.2794" y2="2.0828" width="0.127" layer="21"/>
-<wire x1="0.5588" y1="2.0828" x2="0.5588" y2="0.8636" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="1.778" x2="-0.8636" y2="1.778" width="0.127" layer="21" curve="-300"/>
-<wire x1="0.6096" y1="1.4732" x2="0.8636" y2="1.4732" width="0.127" layer="21"/>
-<wire x1="-0.5588" y1="1.4224" x2="-0.8128" y2="1.4224" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="0.6096" layer="27" font="vector" align="bottom-center">&gt;VALUE</text>
+<wire x1="-0.5588" y1="2.2098" x2="-0.5588" y2="1.5494" width="0.127" layer="21"/>
+<wire x1="-0.5588" y1="1.5494" x2="-0.5588" y2="0.9398" width="0.127" layer="21"/>
+<wire x1="-0.2794" y1="2.2098" x2="0.2794" y2="2.2098" width="0.127" layer="21"/>
+<wire x1="0.2794" y1="2.2098" x2="0.2794" y2="0.9398" width="0.127" layer="21"/>
+<wire x1="0.2794" y1="0.9398" x2="-0.2794" y2="0.9398" width="0.127" layer="21"/>
+<wire x1="-0.2794" y1="0.9398" x2="-0.2794" y2="2.2098" width="0.127" layer="21"/>
+<wire x1="0.5588" y1="2.2098" x2="0.5588" y2="0.9906" width="0.127" layer="21"/>
+<wire x1="1.0414" y1="1.905" x2="-0.9906" y2="1.905" width="0.127" layer="21" curve="-300"/>
+<wire x1="0.6096" y1="1.6002" x2="0.8636" y2="1.6002" width="0.127" layer="21"/>
+<wire x1="-0.5588" y1="1.5494" x2="-0.8128" y2="1.5494" width="0.127" layer="21"/>
 </package>
 <package name="DIL8-SMD-NOPIN7">
 <wire x1="5.08" y1="4.445" x2="4.445" y2="4.445" width="0.1524" layer="21"/>
@@ -2908,8 +2908,8 @@ grid 2.54 mm</description>
 <pad name="10" x="22.5044" y="0" drill="1.3208" shape="long" rot="R90"/>
 <text x="-25.0698" y="6.731" size="1.778" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-25.0698" y="-6.731" size="1.778" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="-24.5872" y="1.4478" size="1.27" layer="21" font="vector" ratio="10">1</text>
-<text x="19.1516" y="1.3716" size="1.27" layer="21" font="vector" ratio="10">10</text>
+<text x="-24.8412" y="1.7018" size="1.27" layer="21" font="vector" ratio="10">1</text>
+<text x="19.1516" y="1.6256" size="1.27" layer="21" font="vector" ratio="10">10</text>
 <rectangle x1="-23.7744" y1="-2.54" x2="-21.2344" y2="0.254" layer="51"/>
 <rectangle x1="-18.7706" y1="-2.54" x2="-16.2306" y2="0.254" layer="51"/>
 <rectangle x1="-13.7668" y1="-2.54" x2="-11.2268" y2="0.254" layer="51"/>
@@ -2920,7 +2920,7 @@ grid 2.54 mm</description>
 <rectangle x1="11.2268" y1="-2.54" x2="13.7668" y2="0.254" layer="51"/>
 <rectangle x1="16.2306" y1="-2.54" x2="18.7706" y2="0.254" layer="51"/>
 <rectangle x1="21.2344" y1="-2.54" x2="23.7744" y2="0.254" layer="51"/>
-<text x="-4.5466" y="1.524" size="1.27" layer="21" font="vector" ratio="10">5</text>
+<text x="-4.8006" y="1.651" size="1.27" layer="21" font="vector" ratio="10">5</text>
 <wire x1="25.0698" y1="-4.318" x2="25.0698" y2="0.635" width="0.1524" layer="21"/>
 </package>
 <package name="AK300/4">
@@ -3036,8 +3036,8 @@ grid 2.54 mm</description>
 <pad name="4" x="7.493" y="0" drill="1.3208" shape="long" rot="R90"/>
 <text x="-10.0838" y="6.731" size="1.778" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-10.0838" y="-6.858" size="1.778" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<text x="-9.6774" y="1.4478" size="1.27" layer="21" ratio="10">1</text>
-<text x="5.3848" y="1.651" size="1.27" layer="21" ratio="10">4</text>
+<text x="-9.8044" y="1.7018" size="1.27" layer="21" ratio="10">1</text>
+<text x="4.8768" y="1.651" size="1.27" layer="21" ratio="10">4</text>
 <rectangle x1="-8.8138" y1="-2.54" x2="-6.2738" y2="0.254" layer="51"/>
 <rectangle x1="-3.7338" y1="-2.54" x2="-1.1938" y2="0.254" layer="51"/>
 <rectangle x1="1.1938" y1="-2.54" x2="3.7338" y2="0.254" layer="51"/>
