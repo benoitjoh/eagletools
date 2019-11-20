@@ -5,7 +5,10 @@
 Row {
     atmwm 
     frontshield Rotate
-    pcc_circuit
-    smallAtmBoard Rotate
+#    Col {
+#       pcc_circuit Rotate
+#       pcc_circuit Rotate
+#    }
+    lcdkbdunit Rotate
 }  
 
