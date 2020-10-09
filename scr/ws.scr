@@ -1,10 +1,16 @@
-# Command Menu Setup
+# some useful workspace adaption 
 #
-# This is an example that shows how to set up a complex command menu,
-# including submenus and command aliases. To display the command menu in
-# the editor windows you have to activate the option 'Command texts'
-# in the 'Options/User Interface' menu.
+# selectlist for width
 
+grid mm
+SET DRILL_MENU 0.9 1.0 1.3; 
+
+
+Grid mil
+Set Width_Menu 0 10 12 16 32 50 70 100; set width 16
+
+
+# Menu bar
 MENU 'Grid {\
             mil 2   : Grid mil 2; |\
             mil 5   : Grid mil 5; |\
@@ -29,7 +35,9 @@ MENU 'Grid {\
      '---'\
      'Fit : Window Fit;'\
      '---'\
-     'Route' 'Ripup' 'Move' \
+     'Route: SET WIRE_BEND 1; route ' \
+     'Ripup' \
+     'Move' \
      'Update Lib : update bauteile_jbt.lbr' \
      'no pane : ripup GND'
      ;

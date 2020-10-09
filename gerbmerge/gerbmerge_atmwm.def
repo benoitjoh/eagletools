@@ -1,14 +1,20 @@
-# This example simply takes the small Proj1 board and panelizes
-# it in a 2x4 array. To demonstrate rotation, the second column
-# consists of rotated jobs. You wouldn't really do it this way,
-# of course, as it wastes space.
-Row {
-    atmwm 
-    frontshield Rotate
-#    Col {
-#       pcc_circuit Rotate
-#       pcc_circuit Rotate
-#    }
-    lcdkbdunit Rotate
-}  
+<?xml version="1.0" ?>
+# layoutdefinition for projects
+# mind: rotation may not be "0" !!
+<panel>
+  <row>
+    <board name="atmwm" rotation="360"/>
+    <board name="frontshield" rotation="0" />
+    <board name="lcdkbdunit" rotation="0" />
+    
+#    <col>
+#      <row>
+#        <board name="pcc_circuit" rotation="90" />
+#      </row>
+#      <row>
+#        <board name="pcc_circuit" rotation="90" />
+#      </row>
+#    </col>
+  </row>
 
+</panel>
