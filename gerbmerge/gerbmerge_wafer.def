@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+# layoutdefinition for projects
+# mind: rotation may not be "0" !!
+<panel>
+  <row>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+  </row>
+  <row>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+  </row>
+  <row>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+  </row>
+  <row>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+  </row>
+  <row>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+    <col>
+     <board name="atmwmprod" rotation="360"/>
+    </col>
+  </row>
+
+</panel>
