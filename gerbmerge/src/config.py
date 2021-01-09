@@ -158,7 +158,9 @@ def parseStringList(L):
 #   * read the tool list file and populate the DefaultToolList dictionary
 def parseConfigFile(configFilePath, Config=Config, Jobs=Jobs):
     global DefaultToolList
-
+    
+    if not os.path.exists(configFilePath):
+        raise RuntimeError('[ERROR] not found: configurationfile "%s"' % configFilePath)
     CP = configparser.ConfigParser()
     CP.read(configFilePath)
 
