@@ -38,6 +38,5 @@ MENU 'Grid {\
      'Route: SET WIRE_BEND 1; route ' \
      'Ripup' \
      'Move' \
-     'Update Lib : update bauteile_jbt.lbr' \
-     'no pane : ripup GND'
+     'Update Lib : update bauteile_jbt.lbr'
      ;
