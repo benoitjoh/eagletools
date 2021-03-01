@@ -3746,18 +3746,18 @@ type 0204, grid 7.5 mm</description>
 <rectangle x1="5.4699" y1="-5.3199" x2="5.9601" y2="-3.8001" layer="51"/>
 </package>
 <package name="SOLDER">
-<wire x1="4.445" y1="1.143" x2="4.445" y2="-1.143" width="0.127" layer="16"/>
-<wire x1="4.445" y1="-1.143" x2="-4.445" y2="-1.143" width="0.127" layer="16"/>
-<wire x1="-4.445" y1="-1.143" x2="-4.445" y2="1.143" width="0.127" layer="16"/>
-<text x="4.064" y="-0.762" size="1.524" layer="16" font="vector" rot="MR0">SOLDER</text>
-<wire x1="-4.445" y1="1.143" x2="4.445" y2="1.143" width="0.127" layer="16"/>
+<wire x1="2.286" y1="1.143" x2="2.286" y2="-1.143" width="0.127" layer="16"/>
+<wire x1="2.286" y1="-1.143" x2="-2.286" y2="-1.143" width="0.127" layer="16"/>
+<wire x1="-2.286" y1="-1.143" x2="-2.286" y2="1.143" width="0.127" layer="16"/>
+<text x="1.905" y="-0.762" size="1.524" layer="16" font="vector" rot="MR0">SOL</text>
+<wire x1="-2.286" y1="1.143" x2="2.286" y2="1.143" width="0.127" layer="16"/>
 </package>
 <package name="COMP">
-<wire x1="3.556" y1="1.143" x2="3.556" y2="-1.143" width="0.127" layer="1"/>
-<wire x1="3.556" y1="-1.143" x2="-3.429" y2="-1.143" width="0.127" layer="1"/>
-<wire x1="-3.429" y1="-1.143" x2="-3.429" y2="1.143" width="0.127" layer="1"/>
-<text x="-2.794" y="-0.762" size="1.524" layer="1" font="vector">COMP.</text>
-<wire x1="-3.429" y1="1.143" x2="3.556" y2="1.143" width="0.127" layer="1"/>
+<wire x1="2.286" y1="1.143" x2="2.286" y2="-1.143" width="0.127" layer="1"/>
+<wire x1="2.286" y1="-1.143" x2="-2.286" y2="-1.143" width="0.127" layer="1"/>
+<wire x1="-2.286" y1="-1.143" x2="-2.286" y2="1.143" width="0.127" layer="1"/>
+<text x="-1.905" y="-0.762" size="1.524" layer="1" font="vector">CMP</text>
+<wire x1="-2.286" y1="1.143" x2="2.286" y2="1.143" width="0.127" layer="1"/>
 </package>
 <package name="IRM_05/10">
 <wire x1="-22.85" y1="-12.7" x2="-22.85" y2="12.7" width="0.127" layer="21"/>
