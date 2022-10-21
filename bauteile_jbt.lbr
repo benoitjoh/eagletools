@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2351,26 +2351,25 @@ Source: tuxgr_12x2_r2.pdf</description>
 <pad name="16" x="6.1" y="15.5" drill="1" diameter="1.6764" shape="long" rot="R90"/>
 <text x="-38.1" y="18.415" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="10.935" y="13.715" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<hole x="-37.5" y="-15.5" drill="3.2"/>
 <hole x="37.5" y="-15.5" drill="3.2"/>
 <hole x="-37.5" y="15.5" drill="3.2"/>
 <hole x="37.5" y="15.5" drill="3.2"/>
-<text x="-31.599" y="10.578" size="1.016" layer="21" font="fixed" rot="R90">GND</text>
-<text x="-29.059" y="10.451" size="1.016" layer="21" font="fixed" rot="R90">VCC</text>
-<text x="-26.519" y="8.8" size="1.016" layer="21" font="fixed" rot="R90">CTRST</text>
-<text x="-23.852" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">RS</text>
-<text x="-21.439" y="11.213" size="1.016" layer="21" font="fixed" rot="R90">RW</text>
-<text x="-18.899" y="11.975" size="1.016" layer="21" font="fixed" rot="R90">E</text>
-<text x="-16.359" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L0</text>
-<text x="1.548" y="11.213" size="1.016" layer="21" font="fixed" rot="R90">L7</text>
-<text x="4.088" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">AN</text>
-<text x="6.628" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">KA</text>
-<text x="-13.819" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L1</text>
-<text x="-11.279" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L2</text>
-<text x="-8.739" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L3</text>
-<text x="-6.199" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L4</text>
-<text x="-3.659" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L5</text>
-<text x="-1.119" y="11.086" size="1.016" layer="21" font="fixed" rot="R90">L6</text>
+<text x="-31.599" y="10.6796" size="1.016" layer="21" font="fixed" rot="R90">GND</text>
+<text x="-29.059" y="10.705" size="1.016" layer="21" font="fixed" rot="R90">VCC</text>
+<text x="-26.519" y="10.7304" size="1.016" layer="21" font="fixed" rot="R90">CTR</text>
+<text x="-23.852" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">RS</text>
+<text x="-21.439" y="11.467" size="1.016" layer="21" font="fixed" rot="R90">RW</text>
+<text x="-18.899" y="12.229" size="1.016" layer="21" font="fixed" rot="R90">E</text>
+<text x="-16.359" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L0</text>
+<text x="1.548" y="11.721" size="1.016" layer="21" font="fixed" rot="R90">L7</text>
+<text x="4.1134" y="11.4162" size="1.016" layer="21" font="fixed" rot="R90">AN</text>
+<text x="6.5518" y="11.4416" size="1.016" layer="21" font="fixed" rot="R90">KA</text>
+<text x="-13.819" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L1</text>
+<text x="-11.279" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L2</text>
+<text x="-8.739" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L3</text>
+<text x="-6.199" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L4</text>
+<text x="-3.659" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L5</text>
+<text x="-1.119" y="11.594" size="1.016" layer="21" font="fixed" rot="R90">L6</text>
 </package>
 <package name="BRIDGE15">
 <description>&lt;B&gt;wire bridge&lt;/B&gt;&lt;p&gt;
@@ -3749,7 +3748,7 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.143" x2="2.286" y2="-1.143" width="0.127" layer="16"/>
 <wire x1="2.286" y1="-1.143" x2="-2.286" y2="-1.143" width="0.127" layer="16"/>
 <wire x1="-2.286" y1="-1.143" x2="-2.286" y2="1.143" width="0.127" layer="16"/>
-<text x="1.905" y="-0.762" size="1.524" layer="16" font="vector" rot="MR0">SOL</text>
+<text x="1.8796" y="-0.762" size="1.524" layer="16" font="vector" rot="MR0">SOL</text>
 <wire x1="-2.286" y1="1.143" x2="2.286" y2="1.143" width="0.127" layer="16"/>
 </package>
 <package name="COMP">
